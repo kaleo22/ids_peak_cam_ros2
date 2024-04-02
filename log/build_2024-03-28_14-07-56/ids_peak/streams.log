@@ -1,0 +1,44 @@
+[0.010s] Invoking command in '/home/leonard/camPE/build/ids_peak': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leonard/camPE/build/ids_peak -- -j5 -l5
+[0.068s] [ 66%] Built target ids_peak_cam_node_3
+[0.068s] [ 75%] Built target ids_peak_cam_node_4
+[0.068s] [ 91%] Built target ids_peak_cam_node
+[0.068s] [100%] Built target ids_peak_cam_node_2
+[0.079s] Invoked command in '/home/leonard/camPE/build/ids_peak' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leonard/camPE/build/ids_peak -- -j5 -l5
+[0.125s] Invoking command in '/home/leonard/camPE/build/ids_peak': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leonard/camPE/build/ids_peak
+[0.131s] -- Install configuration: ""
+[0.131s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/library_path.sh
+[0.133s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/library_path.dsv
+[0.133s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/lib/ids_peak/ids_peak_cam_node
+[0.133s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/
+[0.133s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/lib/ids_peak/ids_peak_cam_node_2
+[0.133s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/include
+[0.133s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/include/ids_peak_cam.h
+[0.133s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/include/ids_peak_cam_2.h
+[0.133s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/include/peak_buffer_converter.hpp
+[0.133s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/include/ids_peak_cam_4.h
+[0.133s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/include/ids_peak_cam_3.h
+[0.134s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/include/ids_peak
+[0.134s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/include/ids_peak/ids_peak_cam.h
+[0.134s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/include/ids_peak/ids_peak_cam_2.h
+[0.135s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/include/ids_peak/peak_buffer_converter.hpp
+[0.135s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/include/ids_peak/ids_peak_cam_4.h
+[0.135s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/include/ids_peak/ids_peak_cam_3.h
+[0.135s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ament_index/resource_index/package_run_dependencies/ids_peak
+[0.135s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ament_index/resource_index/parent_prefix_path/ids_peak
+[0.135s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/ament_prefix_path.sh
+[0.135s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/ament_prefix_path.dsv
+[0.136s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/path.sh
+[0.136s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/path.dsv
+[0.136s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/local_setup.bash
+[0.136s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/local_setup.sh
+[0.136s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/local_setup.zsh
+[0.136s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/local_setup.dsv
+[0.136s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/package.dsv
+[0.136s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ament_index/resource_index/packages/ids_peak
+[0.136s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/cmake/ament_cmake_export_libraries-extras.cmake
+[0.136s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.136s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.136s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/cmake/ids_peakConfig.cmake
+[0.137s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/cmake/ids_peakConfig-version.cmake
+[0.137s] -- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/package.xml
+[0.137s] Invoked command in '/home/leonard/camPE/build/ids_peak' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leonard/camPE/build/ids_peak

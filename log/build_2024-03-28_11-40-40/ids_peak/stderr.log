@@ -1,0 +1,7 @@
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:29 (message):
+  ament_environment_hooks() must be called before
+  ament_generate_package_environment() (which is invoked by ament_package())
+Call Stack (most recent call first):
+  CMakeLists.txt:208 (ament_environment_hooks)
+
+[0m

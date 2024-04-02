@@ -1,0 +1,44 @@
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kids_peak_cam_3.h: No such file or directory
+    1 | #include [01;31m[K"ids_peak_cam_3.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kids_peak_cam_4.h: No such file or directory
+    1 | #include [01;31m[K"ids_peak_cam_4.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kids_peak_cam.h: No such file or directory
+    1 | #include [01;31m[K"ids_peak_cam.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kids_peak_cam_2.h: No such file or directory
+    1 | #include [01;31m[K"ids_peak_cam_2.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kids_peak_cam.h: No such file or directory
+    1 | #include [01;31m[K"ids_peak_cam.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ids_peak_cam_node.dir/build.make:90: CMakeFiles/ids_peak_cam_node.dir/src/ids_peak_cam.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/ids_peak_cam_node.dir/build.make:76: CMakeFiles/ids_peak_cam_node.dir/src/ids_peak_cam_node.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/ids_peak_cam_node_2.dir/build.make:76: CMakeFiles/ids_peak_cam_node_2.dir/src/ids_peak_cam_node_2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/ids_peak_cam_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/ids_peak_cam_node_2.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/ids_peak_cam_node_4.dir/build.make:76: CMakeFiles/ids_peak_cam_node_4.dir/src/ids_peak_cam_node_4.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/ids_peak_cam_node_3.dir/build.make:76: CMakeFiles/ids_peak_cam_node_3.dir/src/ids_peak_cam_node_3.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kids_peak_cam_4.h: No such file or directory
+    1 | #include [01;31m[K"ids_peak_cam_4.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kids_peak_cam_3.h: No such file or directory
+    1 | #include [01;31m[K"ids_peak_cam_3.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ids_peak_cam_node_4.dir/build.make:90: CMakeFiles/ids_peak_cam_node_4.dir/src/ids_peak_cam_4.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/ids_peak_cam_node_4.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/ids_peak_cam_node_3.dir/build.make:90: CMakeFiles/ids_peak_cam_node_3.dir/src/ids_peak_cam_3.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/ids_peak_cam_node_3.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

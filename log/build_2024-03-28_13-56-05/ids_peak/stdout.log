@@ -1,0 +1,21 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node.dir/src/ids_peak_cam_node.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_3.dir/src/ids_peak_cam_node_3.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_2.dir/src/ids_peak_cam_node_2.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node.dir/src/ids_peak_cam.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_4.dir/src/ids_peak_cam_node_4.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_4.dir/src/ids_peak_cam_4.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_3.dir/src/ids_peak_cam_3.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_2.dir/src/ids_peak_cam_2.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable ids_peak_cam_node[0m
+[ 75%] Built target ids_peak_cam_node
+[ 83%] [32m[1mLinking CXX executable ids_peak_cam_node_4[0m
+[ 91%] [32m[1mLinking CXX executable ids_peak_cam_node_2[0m
+[ 91%] Built target ids_peak_cam_node_4
+[100%] [32m[1mLinking CXX executable ids_peak_cam_node_3[0m
+[100%] Built target ids_peak_cam_node_2
+[100%] Built target ids_peak_cam_node_3
+-- Install configuration: ""
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/library_path.sh
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/library_path.dsv
+-- Installing: /home/leonard/camPE/install/ids_peak/lib/ids_peak/ids_peak_cam_node
+-- Set runtime path of "/home/leonard/camPE/install/ids_peak/lib/ids_peak/ids_peak_cam_node" to ""

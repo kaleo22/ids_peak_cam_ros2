@@ -1,0 +1,8 @@
+source;share/ids_peak/hook/cmake_prefix_path.ps1
+source;share/ids_peak/hook/cmake_prefix_path.dsv
+source;share/ids_peak/hook/cmake_prefix_path.sh
+source;share/ids_peak/local_setup.bash
+source;share/ids_peak/local_setup.dsv
+source;share/ids_peak/local_setup.ps1
+source;share/ids_peak/local_setup.sh
+source;share/ids_peak/local_setup.zsh

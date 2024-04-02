@@ -1,0 +1,986 @@
+[0.000000] (-) TimerEvent: {}
+[0.000260] (ids_peak) JobQueued: {'identifier': 'ids_peak', 'dependencies': OrderedDict()}
+[0.000325] (ids_peak) JobStarted: {'identifier': 'ids_peak'}
+[0.005837] (ids_peak) JobProgress: {'identifier': 'ids_peak', 'progress': 'cmake'}
+[0.007041] (ids_peak) JobProgress: {'identifier': 'ids_peak', 'progress': 'build'}
+[0.007084] (ids_peak) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leonard/camPE/build/ids_peak', '--', '-j5', '-l5'], 'cwd': '/home/leonard/camPE/build/ids_peak', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leonard'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leonard'), ('OLDPWD', '/home/leonard/camPE/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2729'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leonard'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leonard'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leonard-VirtualBox:@/tmp/.ICE-unix/2708,unix/leonard-VirtualBox:/tmp/.ICE-unix/2708'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8df522fc_50de_4054_9ebf_0973cd93a079'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HH47K2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('IDS_GENICAM_TL_64_HELPER_SOURCED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leonard/camPE/build/ids_peak'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/usr/lib/ids/cti:/usr/lib/ids/cti'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.054750] (ids_peak) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ids_peak_cam_node.dir/src/ids_peak_cam_node.cpp.o\x1b[0m\n'}
+[0.055258] (ids_peak) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ids_peak_cam_node_3.dir/src/ids_peak_cam_node_3.cpp.o\x1b[0m\n'}
+[0.055519] (ids_peak) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ids_peak_cam_node_2.dir/src/ids_peak_cam_node_2.cpp.o\x1b[0m\n'}
+[0.055598] (ids_peak) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ids_peak_cam_node.dir/src/ids_peak_cam.cpp.o\x1b[0m\n'}
+[0.055682] (ids_peak) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ids_peak_cam_node_4.dir/src/ids_peak_cam_node_4.cpp.o\x1b[0m\n'}
+[0.099366] (-) TimerEvent: {}
+[0.199720] (-) TimerEvent: {}
+[0.300143] (-) TimerEvent: {}
+[0.400538] (-) TimerEvent: {}
+[0.502981] (-) TimerEvent: {}
+[0.603401] (-) TimerEvent: {}
+[0.703796] (-) TimerEvent: {}
+[0.804170] (-) TimerEvent: {}
+[0.904572] (-) TimerEvent: {}
+[1.004980] (-) TimerEvent: {}
+[1.105317] (-) TimerEvent: {}
+[1.207730] (-) TimerEvent: {}
+[1.308104] (-) TimerEvent: {}
+[1.412265] (-) TimerEvent: {}
+[1.513293] (-) TimerEvent: {}
+[1.613724] (-) TimerEvent: {}
+[1.714087] (-) TimerEvent: {}
+[1.814455] (-) TimerEvent: {}
+[1.914830] (-) TimerEvent: {}
+[2.015229] (-) TimerEvent: {}
+[2.115633] (-) TimerEvent: {}
+[2.216021] (-) TimerEvent: {}
+[2.316430] (-) TimerEvent: {}
+[2.416812] (-) TimerEvent: {}
+[2.529600] (-) TimerEvent: {}
+[2.629954] (-) TimerEvent: {}
+[2.730408] (-) TimerEvent: {}
+[2.830861] (-) TimerEvent: {}
+[2.931208] (-) TimerEvent: {}
+[3.031585] (-) TimerEvent: {}
+[3.132045] (-) TimerEvent: {}
+[3.232385] (-) TimerEvent: {}
+[3.333675] (-) TimerEvent: {}
+[3.434080] (-) TimerEvent: {}
+[3.534468] (-) TimerEvent: {}
+[3.634883] (-) TimerEvent: {}
+[3.735328] (-) TimerEvent: {}
+[3.835744] (-) TimerEvent: {}
+[3.936138] (-) TimerEvent: {}
+[4.036568] (-) TimerEvent: {}
+[4.137075] (-) TimerEvent: {}
+[4.238630] (-) TimerEvent: {}
+[4.339066] (-) TimerEvent: {}
+[4.439526] (-) TimerEvent: {}
+[4.540006] (-) TimerEvent: {}
+[4.640494] (-) TimerEvent: {}
+[4.740990] (-) TimerEvent: {}
+[4.841363] (-) TimerEvent: {}
+[4.941772] (-) TimerEvent: {}
+[5.013400] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:12\x1b[m\x1b[K,\n'}
+[5.015090] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:1\x1b[m\x1b[K:\n'}
+[5.015580] (ids_peak) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[5.015923] (ids_peak) StderrLine: {'line': b'   32 | #pragma message ("Warning: This header is deprecated. Use \'image_transport.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[5.016234] (ids_peak) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.043489] (-) TimerEvent: {}
+[5.110984] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:12\x1b[m\x1b[K,\n'}
+[5.111582] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:1\x1b[m\x1b[K:\n'}
+[5.111981] (ids_peak) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[5.112317] (ids_peak) StderrLine: {'line': b'   32 | #pragma message ("Warning: This header is deprecated. Use \'image_transport.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[5.112707] (ids_peak) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.143669] (-) TimerEvent: {}
+[5.244244] (-) TimerEvent: {}
+[5.344889] (-) TimerEvent: {}
+[5.407730] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:15\x1b[m\x1b[K,\n'}
+[5.408285] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:1\x1b[m\x1b[K:\n'}
+[5.408702] (ids_peak) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[5.409081] (ids_peak) StderrLine: {'line': b'   41 | #pragma message ("Warning: This header is deprecated. Use \'camera_info_manager.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[5.409488] (ids_peak) StderrLine: {'line': b'      |                                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.445087] (-) TimerEvent: {}
+[5.526149] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:15\x1b[m\x1b[K,\n'}
+[5.527021] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:1\x1b[m\x1b[K:\n'}
+[5.527513] (ids_peak) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[5.527916] (ids_peak) StderrLine: {'line': b'   41 | #pragma message ("Warning: This header is deprecated. Use \'camera_info_manager.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[5.528258] (ids_peak) StderrLine: {'line': b'      |                                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.545274] (-) TimerEvent: {}
+[5.580980] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:13\x1b[m\x1b[K,\n'}
+[5.581608] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:1\x1b[m\x1b[K:\n'}
+[5.581963] (ids_peak) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[5.582355] (ids_peak) StderrLine: {'line': b'   32 | #pragma message ("Warning: This header is deprecated. Use \'image_transport.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[5.582932] (ids_peak) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.606273] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:1\x1b[m\x1b[K:\n'}
+[5.606461] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:47:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.606569] (ids_peak) StderrLine: {'line': b'   47 |    void publish(const sensor_msgs::msg::Image::Ptr &image\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.606636] (ids_peak) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.607389] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[5.607517] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[5.607597] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[5.607660] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[5.607722] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:12\x1b[m\x1b[K,\n'}
+[5.607781] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:1\x1b[m\x1b[K:\n'}
+[5.607840] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.607899] (ids_peak) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[5.607958] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.609528] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sigsegv_handler(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.609667] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:8:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksig\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.609739] (ids_peak) StderrLine: {'line': b'    8 | void sigsegv_handler(\x1b[01;35m\x1b[Kint sig\x1b[m\x1b[K)\n'}
+[5.609802] (ids_peak) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[5.610566] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sigint_handler(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.610696] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:17:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksignum\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.610761] (ids_peak) StderrLine: {'line': b'   17 | void sigint_handler(\x1b[01;35m\x1b[Kint signum\x1b[m\x1b[K)\n'}
+[5.610819] (ids_peak) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.612658] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.612976] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam.h:47:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.613047] (ids_peak) StderrLine: {'line': b'   47 |    void publish(const sensor_msgs::msg::Image::Ptr &image\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.613107] (ids_peak) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.613163] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[5.613249] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[5.613323] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[5.613378] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam.h:12\x1b[m\x1b[K,\n'}
+[5.613431] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.613502] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.613564] (ids_peak) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[5.613620] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.615561] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sigsegv_handler(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.615712] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node.cpp:9:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksig\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.615788] (ids_peak) StderrLine: {'line': b'    9 | void sigsegv_handler(\x1b[01;35m\x1b[Kint sig\x1b[m\x1b[K)\n'}
+[5.615849] (ids_peak) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[5.615908] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sigint_handler(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.615976] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node.cpp:18:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksignum\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.616035] (ids_peak) StderrLine: {'line': b'   18 | void sigint_handler(\x1b[01;35m\x1b[Kint signum\x1b[m\x1b[K)\n'}
+[5.616091] (ids_peak) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.645934] (-) TimerEvent: {}
+[5.734123] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:1\x1b[m\x1b[K:\n'}
+[5.734308] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:47:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.734765] (ids_peak) StderrLine: {'line': b'   47 |    void publish(const sensor_msgs::msg::Image::Ptr &image\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.734878] (ids_peak) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.735370] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[5.735481] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[5.735934] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[5.736062] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[5.736128] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:12\x1b[m\x1b[K,\n'}
+[5.736186] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:1\x1b[m\x1b[K:\n'}
+[5.736244] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.736299] (ids_peak) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[5.736353] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.739192] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sigsegv_handler(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.739552] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:8:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksig\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.739661] (ids_peak) StderrLine: {'line': b'    8 | void sigsegv_handler(\x1b[01;35m\x1b[Kint sig\x1b[m\x1b[K)\n'}
+[5.739729] (ids_peak) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[5.740956] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sigint_handler(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.741306] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:17:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksignum\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.741406] (ids_peak) StderrLine: {'line': b'   17 | void sigint_handler(\x1b[01;35m\x1b[Kint signum\x1b[m\x1b[K)\n'}
+[5.741527] (ids_peak) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.746077] (-) TimerEvent: {}
+[5.846393] (-) TimerEvent: {}
+[5.924906] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:1\x1b[m\x1b[K:\n'}
+[5.925315] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam.h:47:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.925408] (ids_peak) StderrLine: {'line': b'   47 |    void publish(const sensor_msgs::msg::Image::Ptr &image\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.925494] (ids_peak) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.925577] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[5.925647] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[5.925714] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[5.925779] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam.h:12\x1b[m\x1b[K,\n'}
+[5.925845] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:1\x1b[m\x1b[K:\n'}
+[5.925935] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.926003] (ids_peak) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[5.926067] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.943301] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:16\x1b[m\x1b[K,\n'}
+[5.943468] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:1\x1b[m\x1b[K:\n'}
+[5.943534] (ids_peak) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[5.943606] (ids_peak) StderrLine: {'line': b'   41 | #pragma message ("Warning: This header is deprecated. Use \'camera_info_manager.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[5.943672] (ids_peak) StderrLine: {'line': b'      |                                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.946538] (-) TimerEvent: {}
+[6.010686] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:246:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.010875] (ids_peak) StderrLine: {'line': b'  246 | void ids_cam::publish(const sensor_msgs::msg::Image::Ptr &image\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[6.010949] (ids_peak) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.011013] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[6.011078] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[6.011147] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[6.011221] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam.h:12\x1b[m\x1b[K,\n'}
+[6.011282] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:1\x1b[m\x1b[K:\n'}
+[6.011342] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.011403] (ids_peak) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[6.011462] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.011521] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ids_cam::publish(const Ptr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.011582] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:248:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::CameraInfo_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.011657] (ids_peak) StderrLine: {'line': b'  248 |   sensor_msgs::msg::CameraInfo::Ptr ci\x1b[01;35m\x1b[K(\x1b[m\x1b[Knew sensor_msgs::msg::CameraInfo(cinfo_->getCameraInfo()));\n'}
+[6.011706] (ids_peak) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.014122] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp:7\x1b[m\x1b[K,\n'}
+[6.014393] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:39\x1b[m\x1b[K,\n'}
+[6.014495] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[6.014582] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam.h:12\x1b[m\x1b[K,\n'}
+[6.014668] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:1\x1b[m\x1b[K:\n'}
+[6.014756] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp:219:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.014807] (ids_peak) StderrLine: {'line': b'  219 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[6.014858] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.028527] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ids_cam::poll()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.028708] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:256:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.028797] (ids_peak) StderrLine: {'line': b'  256 |   sensor_msgs::msg::Image::Ptr image\x1b[01;35m\x1b[K(\x1b[m\x1b[Knew sensor_msgs::msg::Image);\n'}
+[6.028868] (ids_peak) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.028944] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[6.029029] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[6.029102] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[6.029172] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam.h:12\x1b[m\x1b[K,\n'}
+[6.029434] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:1\x1b[m\x1b[K:\n'}
+[6.029536] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.029608] (ids_peak) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[6.029680] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.046708] (-) TimerEvent: {}
+[6.140535] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:1\x1b[m\x1b[K:\n'}
+[6.140891] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:48:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.140968] (ids_peak) StderrLine: {'line': b'   48 |    void publish(const sensor_msgs::msg::Image::Ptr &image\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.141029] (ids_peak) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.141087] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[6.141144] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[6.141254] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[6.141341] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[6.141398] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:13\x1b[m\x1b[K,\n'}
+[6.141453] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:1\x1b[m\x1b[K:\n'}
+[6.141508] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.141563] (ids_peak) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[6.141616] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.145282] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sigsegv_handler(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.145437] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:9:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksig\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.145534] (ids_peak) StderrLine: {'line': b'    9 | void sigsegv_handler(\x1b[01;35m\x1b[Kint sig\x1b[m\x1b[K)\n'}
+[6.145654] (ids_peak) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[6.145720] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sigint_handler(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.145822] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:18:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksignum\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.145892] (ids_peak) StderrLine: {'line': b'   18 | void sigint_handler(\x1b[01;35m\x1b[Kint signum\x1b[m\x1b[K)\n'}
+[6.145954] (ids_peak) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.147874] (-) TimerEvent: {}
+[6.248235] (-) TimerEvent: {}
+[6.348580] (-) TimerEvent: {}
+[6.448962] (-) TimerEvent: {}
+[6.549237] (-) TimerEvent: {}
+[6.649566] (-) TimerEvent: {}
+[6.749961] (-) TimerEvent: {}
+[6.852549] (-) TimerEvent: {}
+[6.952975] (-) TimerEvent: {}
+[7.053607] (-) TimerEvent: {}
+[7.153935] (-) TimerEvent: {}
+[7.254668] (-) TimerEvent: {}
+[7.355046] (-) TimerEvent: {}
+[7.455438] (-) TimerEvent: {}
+[7.555850] (-) TimerEvent: {}
+[7.656161] (-) TimerEvent: {}
+[7.756674] (-) TimerEvent: {}
+[7.857099] (-) TimerEvent: {}
+[7.957485] (-) TimerEvent: {}
+[8.058154] (-) TimerEvent: {}
+[8.158496] (-) TimerEvent: {}
+[8.258830] (-) TimerEvent: {}
+[8.359185] (-) TimerEvent: {}
+[8.459545] (-) TimerEvent: {}
+[8.559912] (-) TimerEvent: {}
+[8.660352] (-) TimerEvent: {}
+[8.761147] (-) TimerEvent: {}
+[8.862288] (-) TimerEvent: {}
+[8.964475] (-) TimerEvent: {}
+[9.066003] (-) TimerEvent: {}
+[9.166950] (-) TimerEvent: {}
+[9.267267] (-) TimerEvent: {}
+[9.367606] (-) TimerEvent: {}
+[9.467970] (-) TimerEvent: {}
+[9.568491] (-) TimerEvent: {}
+[9.669534] (-) TimerEvent: {}
+[9.771471] (-) TimerEvent: {}
+[9.872523] (-) TimerEvent: {}
+[9.974032] (-) TimerEvent: {}
+[10.075401] (-) TimerEvent: {}
+[10.176273] (-) TimerEvent: {}
+[10.279826] (-) TimerEvent: {}
+[10.380831] (-) TimerEvent: {}
+[10.482021] (-) TimerEvent: {}
+[10.582576] (-) TimerEvent: {}
+[10.683747] (-) TimerEvent: {}
+[10.784282] (-) TimerEvent: {}
+[10.885726] (-) TimerEvent: {}
+[10.987445] (-) TimerEvent: {}
+[11.089817] (-) TimerEvent: {}
+[11.190257] (-) TimerEvent: {}
+[11.290820] (-) TimerEvent: {}
+[11.391449] (-) TimerEvent: {}
+[11.492422] (-) TimerEvent: {}
+[11.593803] (-) TimerEvent: {}
+[12.169422] (-) TimerEvent: {}
+[12.269863] (-) TimerEvent: {}
+[12.370268] (-) TimerEvent: {}
+[12.470823] (-) TimerEvent: {}
+[12.577325] (-) TimerEvent: {}
+[12.677774] (-) TimerEvent: {}
+[12.778782] (-) TimerEvent: {}
+[12.879294] (-) TimerEvent: {}
+[12.979819] (-) TimerEvent: {}
+[13.080472] (-) TimerEvent: {}
+[13.180914] (-) TimerEvent: {}
+[13.281569] (-) TimerEvent: {}
+[13.382283] (-) TimerEvent: {}
+[13.482702] (-) TimerEvent: {}
+[13.583527] (-) TimerEvent: {}
+[13.684219] (-) TimerEvent: {}
+[13.784712] (-) TimerEvent: {}
+[13.885975] (-) TimerEvent: {}
+[13.989234] (-) TimerEvent: {}
+[14.090153] (-) TimerEvent: {}
+[14.191606] (-) TimerEvent: {}
+[14.294619] (-) TimerEvent: {}
+[14.395185] (-) TimerEvent: {}
+[14.496105] (-) TimerEvent: {}
+[14.598547] (-) TimerEvent: {}
+[14.699173] (-) TimerEvent: {}
+[14.800172] (-) TimerEvent: {}
+[14.902584] (-) TimerEvent: {}
+[15.003880] (-) TimerEvent: {}
+[15.104462] (-) TimerEvent: {}
+[15.205402] (-) TimerEvent: {}
+[15.307495] (-) TimerEvent: {}
+[15.409269] (-) TimerEvent: {}
+[15.509939] (-) TimerEvent: {}
+[15.610382] (-) TimerEvent: {}
+[15.710754] (-) TimerEvent: {}
+[15.811834] (-) TimerEvent: {}
+[15.912395] (-) TimerEvent: {}
+[16.013290] (-) TimerEvent: {}
+[16.116512] (-) TimerEvent: {}
+[16.217998] (-) TimerEvent: {}
+[16.322797] (-) TimerEvent: {}
+[16.424221] (-) TimerEvent: {}
+[16.524705] (-) TimerEvent: {}
+[16.626725] (-) TimerEvent: {}
+[16.733968] (-) TimerEvent: {}
+[16.836309] (-) TimerEvent: {}
+[16.936785] (-) TimerEvent: {}
+[17.040094] (-) TimerEvent: {}
+[17.142484] (-) TimerEvent: {}
+[17.245008] (-) TimerEvent: {}
+[17.348475] (-) TimerEvent: {}
+[18.287213] (-) TimerEvent: {}
+[18.391612] (-) TimerEvent: {}
+[18.494080] (-) TimerEvent: {}
+[18.598374] (-) TimerEvent: {}
+[18.702326] (-) TimerEvent: {}
+[18.802766] (-) TimerEvent: {}
+[18.903860] (-) TimerEvent: {}
+[19.004578] (-) TimerEvent: {}
+[19.104868] (-) TimerEvent: {}
+[19.205959] (-) TimerEvent: {}
+[19.306666] (-) TimerEvent: {}
+[19.409888] (-) TimerEvent: {}
+[19.510282] (-) TimerEvent: {}
+[19.612035] (-) TimerEvent: {}
+[19.712605] (-) TimerEvent: {}
+[19.815816] (-) TimerEvent: {}
+[19.924028] (-) TimerEvent: {}
+[20.025361] (-) TimerEvent: {}
+[20.127071] (-) TimerEvent: {}
+[20.229380] (-) TimerEvent: {}
+[20.330110] (-) TimerEvent: {}
+[20.430705] (-) TimerEvent: {}
+[20.532726] (-) TimerEvent: {}
+[20.635754] (-) TimerEvent: {}
+[20.738771] (-) TimerEvent: {}
+[20.839282] (-) TimerEvent: {}
+[20.939733] (-) TimerEvent: {}
+[21.040071] (-) TimerEvent: {}
+[21.142350] (-) TimerEvent: {}
+[21.245048] (-) TimerEvent: {}
+[21.346882] (-) TimerEvent: {}
+[21.447703] (-) TimerEvent: {}
+[21.548996] (-) TimerEvent: {}
+[21.649590] (-) TimerEvent: {}
+[21.751801] (-) TimerEvent: {}
+[21.854103] (-) TimerEvent: {}
+[21.956908] (-) TimerEvent: {}
+[22.059240] (-) TimerEvent: {}
+[22.164133] (-) TimerEvent: {}
+[22.264511] (-) TimerEvent: {}
+[22.366861] (-) TimerEvent: {}
+[22.470924] (-) TimerEvent: {}
+[23.329222] (-) TimerEvent: {}
+[23.430005] (-) TimerEvent: {}
+[23.530654] (-) TimerEvent: {}
+[23.630977] (-) TimerEvent: {}
+[23.732088] (-) TimerEvent: {}
+[23.834670] (-) TimerEvent: {}
+[23.938120] (-) TimerEvent: {}
+[24.039753] (-) TimerEvent: {}
+[24.141926] (-) TimerEvent: {}
+[24.242288] (-) TimerEvent: {}
+[24.346587] (-) TimerEvent: {}
+[24.450160] (-) TimerEvent: {}
+[24.551646] (-) TimerEvent: {}
+[24.652605] (-) TimerEvent: {}
+[24.756663] (-) TimerEvent: {}
+[24.860775] (-) TimerEvent: {}
+[24.962258] (-) TimerEvent: {}
+[25.062722] (-) TimerEvent: {}
+[25.164133] (-) TimerEvent: {}
+[25.265078] (-) TimerEvent: {}
+[25.367976] (-) TimerEvent: {}
+[25.469707] (-) TimerEvent: {}
+[25.574727] (-) TimerEvent: {}
+[25.678311] (-) TimerEvent: {}
+[25.780241] (-) TimerEvent: {}
+[25.880813] (-) TimerEvent: {}
+[25.982820] (-) TimerEvent: {}
+[26.085039] (-) TimerEvent: {}
+[26.186994] (-) TimerEvent: {}
+[26.289002] (-) TimerEvent: {}
+[26.389949] (-) TimerEvent: {}
+[26.492905] (-) TimerEvent: {}
+[26.593651] (-) TimerEvent: {}
+[26.694238] (-) TimerEvent: {}
+[26.794802] (-) TimerEvent: {}
+[26.895391] (-) TimerEvent: {}
+[26.996625] (-) TimerEvent: {}
+[27.097158] (-) TimerEvent: {}
+[27.198584] (-) TimerEvent: {}
+[27.301316] (-) TimerEvent: {}
+[27.402297] (-) TimerEvent: {}
+[27.504242] (-) TimerEvent: {}
+[27.604914] (-) TimerEvent: {}
+[29.991822] (-) TimerEvent: {}
+[30.092765] (-) TimerEvent: {}
+[30.193261] (-) TimerEvent: {}
+[30.295308] (-) TimerEvent: {}
+[30.398019] (-) TimerEvent: {}
+[30.499197] (-) TimerEvent: {}
+[30.600717] (-) TimerEvent: {}
+[30.704242] (-) TimerEvent: {}
+[30.806250] (-) TimerEvent: {}
+[30.908398] (-) TimerEvent: {}
+[31.010730] (-) TimerEvent: {}
+[31.114302] (-) TimerEvent: {}
+[31.214789] (-) TimerEvent: {}
+[31.315717] (-) TimerEvent: {}
+[31.422187] (-) TimerEvent: {}
+[31.526263] (-) TimerEvent: {}
+[31.628030] (-) TimerEvent: {}
+[31.730636] (-) TimerEvent: {}
+[31.834222] (-) TimerEvent: {}
+[31.934976] (-) TimerEvent: {}
+[32.037125] (-) TimerEvent: {}
+[32.138373] (-) TimerEvent: {}
+[32.243544] (-) TimerEvent: {}
+[32.343852] (-) TimerEvent: {}
+[32.449046] (-) TimerEvent: {}
+[32.550080] (-) TimerEvent: {}
+[32.650375] (-) TimerEvent: {}
+[32.750762] (-) TimerEvent: {}
+[33.566580] (-) TimerEvent: {}
+[33.669022] (-) TimerEvent: {}
+[33.769542] (-) TimerEvent: {}
+[33.870645] (-) TimerEvent: {}
+[33.971036] (-) TimerEvent: {}
+[34.071585] (-) TimerEvent: {}
+[34.172035] (-) TimerEvent: {}
+[34.272596] (-) TimerEvent: {}
+[34.373279] (-) TimerEvent: {}
+[34.473799] (-) TimerEvent: {}
+[34.574565] (-) TimerEvent: {}
+[34.675106] (-) TimerEvent: {}
+[34.775579] (-) TimerEvent: {}
+[34.876719] (-) TimerEvent: {}
+[34.977180] (-) TimerEvent: {}
+[35.077666] (-) TimerEvent: {}
+[35.178099] (-) TimerEvent: {}
+[35.279167] (-) TimerEvent: {}
+[35.379711] (-) TimerEvent: {}
+[35.480182] (-) TimerEvent: {}
+[35.581612] (-) TimerEvent: {}
+[35.682127] (-) TimerEvent: {}
+[35.782586] (-) TimerEvent: {}
+[35.883085] (-) TimerEvent: {}
+[35.986283] (-) TimerEvent: {}
+[36.089036] (-) TimerEvent: {}
+[36.189798] (-) TimerEvent: {}
+[36.290760] (-) TimerEvent: {}
+[36.392356] (-) TimerEvent: {}
+[36.493887] (-) TimerEvent: {}
+[36.600112] (-) TimerEvent: {}
+[36.702084] (-) TimerEvent: {}
+[36.802886] (-) TimerEvent: {}
+[36.905766] (-) TimerEvent: {}
+[37.007479] (-) TimerEvent: {}
+[37.108327] (-) TimerEvent: {}
+[37.209625] (-) TimerEvent: {}
+[37.310862] (-) TimerEvent: {}
+[37.411314] (-) TimerEvent: {}
+[37.512346] (-) TimerEvent: {}
+[37.614530] (-) TimerEvent: {}
+[37.715678] (-) TimerEvent: {}
+[37.817895] (-) TimerEvent: {}
+[37.918657] (-) TimerEvent: {}
+[38.836285] (-) TimerEvent: {}
+[38.936615] (-) TimerEvent: {}
+[39.037105] (-) TimerEvent: {}
+[39.137599] (-) TimerEvent: {}
+[39.238142] (-) TimerEvent: {}
+[39.338635] (-) TimerEvent: {}
+[39.439142] (-) TimerEvent: {}
+[39.541843] (-) TimerEvent: {}
+[39.643976] (-) TimerEvent: {}
+[39.746341] (-) TimerEvent: {}
+[39.848088] (-) TimerEvent: {}
+[39.948586] (-) TimerEvent: {}
+[40.056047] (-) TimerEvent: {}
+[40.156737] (-) TimerEvent: {}
+[40.259590] (-) TimerEvent: {}
+[40.363519] (-) TimerEvent: {}
+[40.468571] (-) TimerEvent: {}
+[40.569048] (-) TimerEvent: {}
+[40.669639] (-) TimerEvent: {}
+[40.770506] (-) TimerEvent: {}
+[40.870902] (-) TimerEvent: {}
+[40.971258] (-) TimerEvent: {}
+[41.071650] (-) TimerEvent: {}
+[41.173454] (-) TimerEvent: {}
+[41.274422] (-) TimerEvent: {}
+[41.374953] (-) TimerEvent: {}
+[41.477354] (-) TimerEvent: {}
+[41.582007] (-) TimerEvent: {}
+[41.684145] (-) TimerEvent: {}
+[41.784775] (-) TimerEvent: {}
+[41.888570] (-) TimerEvent: {}
+[41.993448] (-) TimerEvent: {}
+[42.094069] (-) TimerEvent: {}
+[42.196672] (-) TimerEvent: {}
+[42.298514] (-) TimerEvent: {}
+[42.400190] (-) TimerEvent: {}
+[42.502044] (-) TimerEvent: {}
+[42.605759] (-) TimerEvent: {}
+[42.706088] (-) TimerEvent: {}
+[42.807837] (-) TimerEvent: {}
+[42.909950] (-) TimerEvent: {}
+[43.010861] (-) TimerEvent: {}
+[43.112597] (-) TimerEvent: {}
+[44.821597] (-) TimerEvent: {}
+[44.922280] (-) TimerEvent: {}
+[45.022739] (-) TimerEvent: {}
+[45.123658] (-) TimerEvent: {}
+[45.224112] (-) TimerEvent: {}
+[45.324538] (-) TimerEvent: {}
+[45.424876] (-) TimerEvent: {}
+[45.525282] (-) TimerEvent: {}
+[45.625536] (-) TimerEvent: {}
+[45.725853] (-) TimerEvent: {}
+[45.826225] (-) TimerEvent: {}
+[45.926548] (-) TimerEvent: {}
+[46.026889] (-) TimerEvent: {}
+[46.127279] (-) TimerEvent: {}
+[46.227602] (-) TimerEvent: {}
+[46.328013] (-) TimerEvent: {}
+[46.428396] (-) TimerEvent: {}
+[46.528786] (-) TimerEvent: {}
+[46.629163] (-) TimerEvent: {}
+[46.729528] (-) TimerEvent: {}
+[46.829874] (-) TimerEvent: {}
+[46.930199] (-) TimerEvent: {}
+[47.030537] (-) TimerEvent: {}
+[47.130904] (-) TimerEvent: {}
+[47.231561] (-) TimerEvent: {}
+[47.331923] (-) TimerEvent: {}
+[47.432259] (-) TimerEvent: {}
+[47.532812] (-) TimerEvent: {}
+[47.633189] (-) TimerEvent: {}
+[47.733566] (-) TimerEvent: {}
+[47.833961] (-) TimerEvent: {}
+[47.934259] (-) TimerEvent: {}
+[48.034961] (-) TimerEvent: {}
+[48.135348] (-) TimerEvent: {}
+[48.235737] (-) TimerEvent: {}
+[48.336108] (-) TimerEvent: {}
+[48.436792] (-) TimerEvent: {}
+[48.469500] (ids_peak) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ids_peak_cam_node_4.dir/src/ids_peak_cam_4.cpp.o\x1b[0m\n'}
+[48.537218] (-) TimerEvent: {}
+[48.637581] (-) TimerEvent: {}
+[48.692536] (ids_peak) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ids_peak_cam_node_3.dir/src/ids_peak_cam_3.cpp.o\x1b[0m\n'}
+[48.737797] (-) TimerEvent: {}
+[48.839284] (-) TimerEvent: {}
+[48.939728] (-) TimerEvent: {}
+[49.039982] (-) TimerEvent: {}
+[49.140262] (-) TimerEvent: {}
+[49.240718] (-) TimerEvent: {}
+[49.340927] (-) TimerEvent: {}
+[49.441240] (-) TimerEvent: {}
+[49.541557] (-) TimerEvent: {}
+[49.642092] (-) TimerEvent: {}
+[49.742519] (-) TimerEvent: {}
+[49.842925] (-) TimerEvent: {}
+[49.943333] (-) TimerEvent: {}
+[50.043654] (-) TimerEvent: {}
+[50.144007] (-) TimerEvent: {}
+[50.244364] (-) TimerEvent: {}
+[50.330428] (ids_peak) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ids_peak_cam_node_2.dir/src/ids_peak_cam_2.cpp.o\x1b[0m\n'}
+[50.344519] (-) TimerEvent: {}
+[50.445095] (-) TimerEvent: {}
+[50.545419] (-) TimerEvent: {}
+[50.645721] (-) TimerEvent: {}
+[50.746106] (-) TimerEvent: {}
+[50.846345] (-) TimerEvent: {}
+[50.946661] (-) TimerEvent: {}
+[51.046914] (-) TimerEvent: {}
+[51.147558] (-) TimerEvent: {}
+[51.248079] (-) TimerEvent: {}
+[51.348502] (-) TimerEvent: {}
+[51.449238] (-) TimerEvent: {}
+[51.549604] (-) TimerEvent: {}
+[51.650080] (-) TimerEvent: {}
+[51.750466] (-) TimerEvent: {}
+[51.851415] (-) TimerEvent: {}
+[51.951873] (-) TimerEvent: {}
+[52.053821] (-) TimerEvent: {}
+[52.154306] (-) TimerEvent: {}
+[52.254685] (-) TimerEvent: {}
+[52.355118] (-) TimerEvent: {}
+[52.455579] (-) TimerEvent: {}
+[52.555905] (-) TimerEvent: {}
+[52.656258] (-) TimerEvent: {}
+[52.756617] (-) TimerEvent: {}
+[52.857064] (-) TimerEvent: {}
+[52.957632] (-) TimerEvent: {}
+[53.057974] (-) TimerEvent: {}
+[53.139104] (ids_peak) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable ids_peak_cam_node\x1b[0m\n'}
+[53.158132] (-) TimerEvent: {}
+[53.258636] (-) TimerEvent: {}
+[53.359145] (-) TimerEvent: {}
+[53.459533] (-) TimerEvent: {}
+[53.560103] (-) TimerEvent: {}
+[53.660582] (-) TimerEvent: {}
+[53.761019] (-) TimerEvent: {}
+[53.861590] (-) TimerEvent: {}
+[53.961914] (-) TimerEvent: {}
+[54.062250] (-) TimerEvent: {}
+[54.163287] (-) TimerEvent: {}
+[54.263592] (-) TimerEvent: {}
+[54.280083] (ids_peak) StdoutLine: {'line': b'[ 75%] Built target ids_peak_cam_node\n'}
+[54.364708] (-) TimerEvent: {}
+[54.465832] (-) TimerEvent: {}
+[54.567617] (-) TimerEvent: {}
+[54.572103] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:12\x1b[m\x1b[K,\n'}
+[54.577047] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:1\x1b[m\x1b[K:\n'}
+[54.577129] (ids_peak) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[54.577186] (ids_peak) StderrLine: {'line': b'   32 | #pragma message ("Warning: This header is deprecated. Use \'image_transport.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[54.577245] (ids_peak) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[54.602329] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:12\x1b[m\x1b[K,\n'}
+[54.602479] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:1\x1b[m\x1b[K:\n'}
+[54.602537] (ids_peak) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[54.602590] (ids_peak) StderrLine: {'line': b'   32 | #pragma message ("Warning: This header is deprecated. Use \'image_transport.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[54.602641] (ids_peak) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[54.667993] (-) TimerEvent: {}
+[54.768343] (-) TimerEvent: {}
+[54.868780] (-) TimerEvent: {}
+[54.879830] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:15\x1b[m\x1b[K,\n'}
+[54.879987] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:1\x1b[m\x1b[K:\n'}
+[54.880045] (ids_peak) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[54.880099] (ids_peak) StderrLine: {'line': b'   41 | #pragma message ("Warning: This header is deprecated. Use \'camera_info_manager.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[54.880150] (ids_peak) StderrLine: {'line': b'      |                                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[54.914262] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:13\x1b[m\x1b[K,\n'}
+[54.914429] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:1\x1b[m\x1b[K:\n'}
+[54.914488] (ids_peak) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[54.914542] (ids_peak) StderrLine: {'line': b'   32 | #pragma message ("Warning: This header is deprecated. Use \'image_transport.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[54.914618] (ids_peak) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[54.923829] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:15\x1b[m\x1b[K,\n'}
+[54.923983] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:1\x1b[m\x1b[K:\n'}
+[54.924043] (ids_peak) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[54.924099] (ids_peak) StderrLine: {'line': b'   41 | #pragma message ("Warning: This header is deprecated. Use \'camera_info_manager.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[54.924153] (ids_peak) StderrLine: {'line': b'      |                                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[54.969415] (-) TimerEvent: {}
+[55.042507] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:1\x1b[m\x1b[K:\n'}
+[55.042654] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:47:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[55.042716] (ids_peak) StderrLine: {'line': b'   47 |    void publish(const sensor_msgs::msg::Image::Ptr &image\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[55.042766] (ids_peak) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[55.042898] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[55.042970] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[55.043019] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[55.043066] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[55.043112] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:12\x1b[m\x1b[K,\n'}
+[55.043157] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:1\x1b[m\x1b[K:\n'}
+[55.043202] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[55.043252] (ids_peak) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[55.043296] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[55.069551] (-) TimerEvent: {}
+[55.092768] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:1\x1b[m\x1b[K:\n'}
+[55.092919] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:47:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[55.092988] (ids_peak) StderrLine: {'line': b'   47 |    void publish(const sensor_msgs::msg::Image::Ptr &image\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[55.093041] (ids_peak) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[55.093146] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[55.093215] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[55.093284] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[55.093355] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[55.093415] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:12\x1b[m\x1b[K,\n'}
+[55.093473] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:1\x1b[m\x1b[K:\n'}
+[55.093530] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[55.093596] (ids_peak) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[55.093653] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[55.099394] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:245:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[55.099559] (ids_peak) StderrLine: {'line': b'  245 | void ids_cam::publish(const sensor_msgs::msg::Image::Ptr &image\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[55.099619] (ids_peak) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[55.099671] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[55.099722] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[55.099774] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[55.099824] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[55.099876] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:12\x1b[m\x1b[K,\n'}
+[55.099925] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:1\x1b[m\x1b[K:\n'}
+[55.099975] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[55.100023] (ids_peak) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[55.100070] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[55.105669] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ids_cam::poll()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[55.105814] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:255:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[55.105875] (ids_peak) StderrLine: {'line': b'  255 |   sensor_msgs::msg::Image::Ptr image\x1b[01;35m\x1b[K(\x1b[m\x1b[Knew sensor_msgs::msg::Image);\n'}
+[55.105928] (ids_peak) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[55.105977] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[55.106027] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[55.106076] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[55.106123] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[55.106171] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:12\x1b[m\x1b[K,\n'}
+[55.106230] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:1\x1b[m\x1b[K:\n'}
+[55.106280] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[55.106344] (ids_peak) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[55.106393] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[55.156673] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:246:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[55.156821] (ids_peak) StderrLine: {'line': b'  246 | void ids_cam::publish(const sensor_msgs::msg::Image::Ptr &image\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[55.156877] (ids_peak) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[55.156936] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[55.156985] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[55.157037] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[55.157085] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[55.157133] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:12\x1b[m\x1b[K,\n'}
+[55.157177] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:1\x1b[m\x1b[K:\n'}
+[55.157224] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[55.157361] (ids_peak) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[55.157424] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[55.162766] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ids_cam::poll()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[55.162909] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:256:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[55.162970] (ids_peak) StderrLine: {'line': b'  256 |   sensor_msgs::msg::Image::Ptr image\x1b[01;35m\x1b[K(\x1b[m\x1b[Knew sensor_msgs::msg::Image);\n'}
+[55.163021] (ids_peak) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[55.163069] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[55.163117] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[55.163164] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[55.163210] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[55.163256] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:12\x1b[m\x1b[K,\n'}
+[55.163334] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:1\x1b[m\x1b[K:\n'}
+[55.163394] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[55.163444] (ids_peak) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[55.163493] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[55.169955] (-) TimerEvent: {}
+[55.201215] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:16\x1b[m\x1b[K,\n'}
+[55.201428] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:1\x1b[m\x1b[K:\n'}
+[55.201508] (ids_peak) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[55.201563] (ids_peak) StderrLine: {'line': b'   41 | #pragma message ("Warning: This header is deprecated. Use \'camera_info_manager.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[55.201615] (ids_peak) StderrLine: {'line': b'      |                                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[55.270405] (-) TimerEvent: {}
+[55.362178] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:1\x1b[m\x1b[K:\n'}
+[55.362392] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:48:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[55.362492] (ids_peak) StderrLine: {'line': b'   48 |    void publish(const sensor_msgs::msg::Image::Ptr &image\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[55.362551] (ids_peak) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[55.362605] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[55.362659] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[55.362712] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[55.362763] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[55.362825] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:13\x1b[m\x1b[K,\n'}
+[55.362915] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:1\x1b[m\x1b[K:\n'}
+[55.362992] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[55.363046] (ids_peak) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[55.363097] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[55.370711] (-) TimerEvent: {}
+[55.428079] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:245:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[55.428248] (ids_peak) StderrLine: {'line': b'  245 | void ids_cam::publish(const sensor_msgs::msg::Image::Ptr &image\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[55.428326] (ids_peak) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[55.428380] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[55.428433] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[55.428486] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[55.428537] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[55.428587] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:13\x1b[m\x1b[K,\n'}
+[55.428637] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:1\x1b[m\x1b[K:\n'}
+[55.428687] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[55.428737] (ids_peak) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[55.428787] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[55.428839] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ids_cam::publish(const Ptr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[55.428895] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:247:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::CameraInfo_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[55.428949] (ids_peak) StderrLine: {'line': b'  247 |   sensor_msgs::msg::CameraInfo::Ptr ci\x1b[01;35m\x1b[K(\x1b[m\x1b[Knew sensor_msgs::msg::CameraInfo(cinfo_->getCameraInfo()));\n'}
+[55.429000] (ids_peak) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[55.429054] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp:7\x1b[m\x1b[K,\n'}
+[55.429122] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:39\x1b[m\x1b[K,\n'}
+[55.429223] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[55.429297] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[55.429368] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:13\x1b[m\x1b[K,\n'}
+[55.429423] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:1\x1b[m\x1b[K:\n'}
+[55.429492] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp:219:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[55.429602] (ids_peak) StderrLine: {'line': b'  219 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[55.429664] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[55.453231] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ids_cam::poll()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[55.453457] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:255:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[55.453530] (ids_peak) StderrLine: {'line': b'  255 |   sensor_msgs::msg::Image::Ptr image\x1b[01;35m\x1b[K(\x1b[m\x1b[Knew sensor_msgs::msg::Image);\n'}
+[55.453583] (ids_peak) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[55.453633] (ids_peak) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[55.453685] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38\x1b[m\x1b[K,\n'}
+[55.453733] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39\x1b[m\x1b[K,\n'}
+[55.453789] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[55.453838] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:13\x1b[m\x1b[K,\n'}
+[55.453886] (ids_peak) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:1\x1b[m\x1b[K:\n'}
+[55.453934] (ids_peak) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[55.453982] (ids_peak) StderrLine: {'line': b'  170 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[55.454029] (ids_peak) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[55.471846] (-) TimerEvent: {}
+[55.572625] (-) TimerEvent: {}
+[55.673084] (-) TimerEvent: {}
+[55.773726] (-) TimerEvent: {}
+[55.874154] (-) TimerEvent: {}
+[55.974878] (-) TimerEvent: {}
+[56.075212] (-) TimerEvent: {}
+[56.175579] (-) TimerEvent: {}
+[56.276029] (-) TimerEvent: {}
+[56.376569] (-) TimerEvent: {}
+[56.477019] (-) TimerEvent: {}
+[56.577596] (-) TimerEvent: {}
+[56.677998] (-) TimerEvent: {}
+[56.778304] (-) TimerEvent: {}
+[56.878705] (-) TimerEvent: {}
+[56.979103] (-) TimerEvent: {}
+[57.079575] (-) TimerEvent: {}
+[57.179867] (-) TimerEvent: {}
+[57.280240] (-) TimerEvent: {}
+[57.380624] (-) TimerEvent: {}
+[57.481040] (-) TimerEvent: {}
+[57.581261] (-) TimerEvent: {}
+[57.681778] (-) TimerEvent: {}
+[57.782128] (-) TimerEvent: {}
+[57.882475] (-) TimerEvent: {}
+[57.982814] (-) TimerEvent: {}
+[58.083472] (-) TimerEvent: {}
+[58.183784] (-) TimerEvent: {}
+[58.284281] (-) TimerEvent: {}
+[58.385030] (-) TimerEvent: {}
+[58.485571] (-) TimerEvent: {}
+[58.586132] (-) TimerEvent: {}
+[58.686749] (-) TimerEvent: {}
+[58.787675] (-) TimerEvent: {}
+[58.888073] (-) TimerEvent: {}
+[58.988738] (-) TimerEvent: {}
+[59.089244] (-) TimerEvent: {}
+[59.189499] (-) TimerEvent: {}
+[59.290234] (-) TimerEvent: {}
+[59.390794] (-) TimerEvent: {}
+[59.491056] (-) TimerEvent: {}
+[59.591694] (-) TimerEvent: {}
+[59.692174] (-) TimerEvent: {}
+[59.792734] (-) TimerEvent: {}
+[59.893241] (-) TimerEvent: {}
+[59.994180] (-) TimerEvent: {}
+[60.094615] (-) TimerEvent: {}
+[60.195007] (-) TimerEvent: {}
+[60.295497] (-) TimerEvent: {}
+[60.395940] (-) TimerEvent: {}
+[60.496362] (-) TimerEvent: {}
+[60.596721] (-) TimerEvent: {}
+[60.697069] (-) TimerEvent: {}
+[60.797458] (-) TimerEvent: {}
+[60.897859] (-) TimerEvent: {}
+[60.998162] (-) TimerEvent: {}
+[61.098460] (-) TimerEvent: {}
+[61.198883] (-) TimerEvent: {}
+[61.299456] (-) TimerEvent: {}
+[61.400045] (-) TimerEvent: {}
+[61.500932] (-) TimerEvent: {}
+[61.601327] (-) TimerEvent: {}
+[61.702050] (-) TimerEvent: {}
+[61.802277] (-) TimerEvent: {}
+[61.902580] (-) TimerEvent: {}
+[62.003405] (-) TimerEvent: {}
+[62.104149] (-) TimerEvent: {}
+[62.204774] (-) TimerEvent: {}
+[62.305310] (-) TimerEvent: {}
+[62.405944] (-) TimerEvent: {}
+[62.506647] (-) TimerEvent: {}
+[62.607189] (-) TimerEvent: {}
+[62.707594] (-) TimerEvent: {}
+[62.808154] (-) TimerEvent: {}
+[62.908558] (-) TimerEvent: {}
+[63.008967] (-) TimerEvent: {}
+[63.109459] (-) TimerEvent: {}
+[63.209789] (-) TimerEvent: {}
+[63.310177] (-) TimerEvent: {}
+[63.410644] (-) TimerEvent: {}
+[63.511096] (-) TimerEvent: {}
+[63.611491] (-) TimerEvent: {}
+[63.711831] (-) TimerEvent: {}
+[63.812429] (-) TimerEvent: {}
+[63.912777] (-) TimerEvent: {}
+[64.013007] (-) TimerEvent: {}
+[64.113558] (-) TimerEvent: {}
+[64.214230] (-) TimerEvent: {}
+[64.314566] (-) TimerEvent: {}
+[64.415374] (-) TimerEvent: {}
+[64.515776] (-) TimerEvent: {}
+[64.616353] (-) TimerEvent: {}
+[64.716691] (-) TimerEvent: {}
+[64.817433] (-) TimerEvent: {}
+[64.917881] (-) TimerEvent: {}
+[65.018490] (-) TimerEvent: {}
+[65.120220] (-) TimerEvent: {}
+[65.220832] (-) TimerEvent: {}
+[65.321288] (-) TimerEvent: {}
+[65.421756] (-) TimerEvent: {}
+[65.522218] (-) TimerEvent: {}
+[65.622553] (-) TimerEvent: {}
+[65.722843] (-) TimerEvent: {}
+[65.823889] (-) TimerEvent: {}
+[65.924306] (-) TimerEvent: {}
+[66.024795] (-) TimerEvent: {}
+[66.125292] (-) TimerEvent: {}
+[66.225707] (-) TimerEvent: {}
+[66.326109] (-) TimerEvent: {}
+[66.426648] (-) TimerEvent: {}
+[66.527038] (-) TimerEvent: {}
+[66.627349] (-) TimerEvent: {}
+[66.727653] (-) TimerEvent: {}
+[66.828137] (-) TimerEvent: {}
+[66.928634] (-) TimerEvent: {}
+[67.029090] (-) TimerEvent: {}
+[67.129550] (-) TimerEvent: {}
+[67.229828] (-) TimerEvent: {}
+[67.330301] (-) TimerEvent: {}
+[67.430907] (-) TimerEvent: {}
+[67.531548] (-) TimerEvent: {}
+[67.632083] (-) TimerEvent: {}
+[67.732693] (-) TimerEvent: {}
+[67.833011] (-) TimerEvent: {}
+[67.933511] (-) TimerEvent: {}
+[68.034048] (-) TimerEvent: {}
+[68.134331] (-) TimerEvent: {}
+[68.234899] (-) TimerEvent: {}
+[68.336206] (-) TimerEvent: {}
+[68.436548] (-) TimerEvent: {}
+[68.537894] (-) TimerEvent: {}
+[68.638146] (-) TimerEvent: {}
+[68.738560] (-) TimerEvent: {}
+[68.838899] (-) TimerEvent: {}
+[68.939205] (-) TimerEvent: {}
+[69.039444] (-) TimerEvent: {}
+[69.139972] (-) TimerEvent: {}
+[69.241406] (-) TimerEvent: {}
+[69.341685] (-) TimerEvent: {}
+[69.442105] (-) TimerEvent: {}
+[69.542423] (-) TimerEvent: {}
+[69.642950] (-) TimerEvent: {}
+[69.734426] (ids_peak) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable ids_peak_cam_node_4\x1b[0m\n'}
+[69.743243] (-) TimerEvent: {}
+[69.844547] (-) TimerEvent: {}
+[69.945124] (-) TimerEvent: {}
+[70.044976] (ids_peak) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable ids_peak_cam_node_2\x1b[0m\n'}
+[70.045154] (-) TimerEvent: {}
+[70.145595] (-) TimerEvent: {}
+[70.246600] (-) TimerEvent: {}
+[70.347502] (-) TimerEvent: {}
+[70.414943] (ids_peak) StdoutLine: {'line': b'[ 91%] Built target ids_peak_cam_node_4\n'}
+[70.447860] (-) TimerEvent: {}
+[70.549303] (-) TimerEvent: {}
+[70.653794] (-) TimerEvent: {}
+[70.661151] (ids_peak) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ids_peak_cam_node_3\x1b[0m\n'}
+[70.674965] (ids_peak) StdoutLine: {'line': b'[100%] Built target ids_peak_cam_node_2\n'}
+[70.754463] (-) TimerEvent: {}
+[70.857100] (-) TimerEvent: {}
+[70.957493] (-) TimerEvent: {}
+[71.057757] (-) TimerEvent: {}
+[71.136699] (ids_peak) StdoutLine: {'line': b'[100%] Built target ids_peak_cam_node_3\n'}
+[71.151929] (ids_peak) CommandEnded: {'returncode': 0}
+[71.157890] (-) TimerEvent: {}
+[71.190414] (ids_peak) JobProgress: {'identifier': 'ids_peak', 'progress': 'install'}
+[71.200488] (ids_peak) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/leonard/camPE/build/ids_peak'], 'cwd': '/home/leonard/camPE/build/ids_peak', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leonard'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leonard'), ('OLDPWD', '/home/leonard/camPE/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2729'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leonard'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leonard'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leonard-VirtualBox:@/tmp/.ICE-unix/2708,unix/leonard-VirtualBox:/tmp/.ICE-unix/2708'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8df522fc_50de_4054_9ebf_0973cd93a079'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HH47K2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('IDS_GENICAM_TL_64_HELPER_SOURCED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leonard/camPE/build/ids_peak'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/usr/lib/ids/cti:/usr/lib/ids/cti'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[71.211182] (ids_peak) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[71.215508] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/library_path.sh\n'}
+[71.216455] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/library_path.dsv\n'}
+[71.217872] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/lib/ids_peak/ids_peak_cam_node\n'}
+[71.224350] (ids_peak) StdoutLine: {'line': b'-- Set runtime path of "/home/leonard/camPE/install/ids_peak/lib/ids_peak/ids_peak_cam_node" to ""\n'}
+[71.224702] (ids_peak) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:74 (file):\n'}
+[71.224800] (ids_peak) StderrLine: {'line': b'  file INSTALL cannot find "/home/leonard/camPE/src/ids_peak/launch": No such\n'}
+[71.224960] (ids_peak) StderrLine: {'line': b'  file or directory.\n'}
+[71.225044] (ids_peak) StderrLine: {'line': b'\n'}
+[71.225131] (ids_peak) StderrLine: {'line': b'\x1b[0m\n'}
+[71.226161] (ids_peak) CommandEnded: {'returncode': 1}
+[71.258041] (-) TimerEvent: {}
+[71.286193] (ids_peak) JobEnded: {'identifier': 'ids_peak', 'rc': 1}
+[71.296806] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+Invoking command in '/home/leonard/camPE/build/ids_peak': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leonard/camPE/build/ids_peak -- -j5 -l5
+Invoked command in '/home/leonard/camPE/build/ids_peak' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leonard/camPE/build/ids_peak -- -j5 -l5
+Invoking command in '/home/leonard/camPE/build/ids_peak': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leonard/camPE/build/ids_peak
+Invoked command in '/home/leonard/camPE/build/ids_peak' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leonard/camPE/build/ids_peak

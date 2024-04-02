@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000120] (ids_peak) JobQueued: {'identifier': 'ids_peak', 'dependencies': OrderedDict()}
+[0.000149] (ids_peak) JobStarted: {'identifier': 'ids_peak'}
+[0.012143] (ids_peak) JobProgress: {'identifier': 'ids_peak', 'progress': 'cmake'}
+[0.014559] (ids_peak) JobProgress: {'identifier': 'ids_peak', 'progress': 'build'}
+[0.015381] (ids_peak) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leonard/camPE/build/ids_peak', '--', '-j5', '-l5'], 'cwd': '/home/leonard/camPE/build/ids_peak', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leonard'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leonard'), ('OLDPWD', '/home/leonard/camPE/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2729'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leonard'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leonard'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leonard-VirtualBox:@/tmp/.ICE-unix/2708,unix/leonard-VirtualBox:/tmp/.ICE-unix/2708'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8df522fc_50de_4054_9ebf_0973cd93a079'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HH47K2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('IDS_GENICAM_TL_64_HELPER_SOURCED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leonard/camPE/build/ids_peak'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/usr/lib/ids/cti:/usr/lib/ids/cti'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099152] (-) TimerEvent: {}
+[0.199861] (-) TimerEvent: {}
+[0.247008] (ids_peak) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300173] (-) TimerEvent: {}
+[0.400562] (-) TimerEvent: {}
+[0.441744] (ids_peak) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500812] (-) TimerEvent: {}
+[0.520874] (ids_peak) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.526768] (ids_peak) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.546083] (ids_peak) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.577643] (ids_peak) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.601064] (-) TimerEvent: {}
+[0.606896] (ids_peak) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701133] (-) TimerEvent: {}
+[0.704471] (ids_peak) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.709298] (ids_peak) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801378] (-) TimerEvent: {}
+[0.851415] (ids_peak) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.901559] (-) TimerEvent: {}
+[1.001902] (-) TimerEvent: {}
+[1.065183] (ids_peak) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.102154] (-) TimerEvent: {}
+[1.202726] (-) TimerEvent: {}
+[1.303150] (-) TimerEvent: {}
+[1.404117] (-) TimerEvent: {}
+[1.451729] (ids_peak) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.8 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[1.504259] (-) TimerEvent: {}
+[1.513294] (ids_peak) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system \n'}
+[1.515534] (ids_peak) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.528415] (ids_peak) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread \n'}
+[1.571065] (ids_peak) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.604434] (-) TimerEvent: {}
+[1.611641] (ids_peak) StdoutLine: {'line': b'-- Generating done\n'}
+[1.614148] (ids_peak) StdoutLine: {'line': b'-- Build files have been written to: /home/leonard/camPE/build/ids_peak\n'}
+[1.638811] (ids_peak) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ids_peak_cam_node\x1b[0m\n'}
+[1.639904] (ids_peak) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ids_peak_cam_node_4\x1b[0m\n'}
+[1.645622] (ids_peak) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ids_peak_cam_node_2\x1b[0m\n'}
+[1.652751] (ids_peak) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ids_peak_cam_node_3\x1b[0m\n'}
+[1.693923] (ids_peak) StdoutLine: {'line': b'[ 25%] Built target ids_peak_cam_node\n'}
+[1.694712] (ids_peak) StdoutLine: {'line': b'[ 50%] Built target ids_peak_cam_node_2\n'}
+[1.701168] (ids_peak) StdoutLine: {'line': b'[ 75%] Built target ids_peak_cam_node_4\n'}
+[1.704883] (-) TimerEvent: {}
+[1.706152] (ids_peak) StdoutLine: {'line': b'[100%] Built target ids_peak_cam_node_3\n'}
+[1.724163] (ids_peak) CommandEnded: {'returncode': 0}
+[1.766057] (ids_peak) JobProgress: {'identifier': 'ids_peak', 'progress': 'install'}
+[1.775680] (ids_peak) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/leonard/camPE/build/ids_peak'], 'cwd': '/home/leonard/camPE/build/ids_peak', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leonard'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leonard'), ('OLDPWD', '/home/leonard/camPE/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2729'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leonard'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leonard'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leonard-VirtualBox:@/tmp/.ICE-unix/2708,unix/leonard-VirtualBox:/tmp/.ICE-unix/2708'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8df522fc_50de_4054_9ebf_0973cd93a079'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HH47K2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('IDS_GENICAM_TL_64_HELPER_SOURCED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leonard/camPE/build/ids_peak'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/usr/lib/ids/cti:/usr/lib/ids/cti'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.783156] (ids_peak) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.783342] (ids_peak) StdoutLine: {'line': b'-- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/library_path.sh\n'}
+[1.783475] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/library_path.dsv\n'}
+[1.783615] (ids_peak) StdoutLine: {'line': b'-- Up-to-date: /home/leonard/camPE/install/ids_peak/lib/ids_peak/ids_peak_cam_node\n'}
+[1.792218] (ids_peak) StdoutLine: {'line': b'-- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/\n'}
+[1.792362] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/lib/ids_peak/ids_peak_cam_node_2\n'}
+[1.793933] (ids_peak) StdoutLine: {'line': b'-- Set runtime path of "/home/leonard/camPE/install/ids_peak/lib/ids_peak/ids_peak_cam_node_2" to ""\n'}
+[1.794091] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/include\n'}
+[1.794239] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak_cam.h\n'}
+[1.794310] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak_cam_2.h\n'}
+[1.794371] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/include/peak_buffer_converter.hpp\n'}
+[1.794431] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak_cam_4.h\n'}
+[1.794490] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak_cam_3.h\n'}
+[1.794550] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak\n'}
+[1.794608] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak/ids_peak_cam.h\n'}
+[1.794896] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak/ids_peak_cam_2.h\n'}
+[1.795594] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak/peak_buffer_converter.hpp\n'}
+[1.796345] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak/ids_peak_cam_4.h\n'}
+[1.796927] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak/ids_peak_cam_3.h\n'}
+[1.797639] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ament_index/resource_index/package_run_dependencies/ids_peak\n'}
+[1.797813] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ament_index/resource_index/parent_prefix_path/ids_peak\n'}
+[1.797963] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/ament_prefix_path.sh\n'}
+[1.798090] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/ament_prefix_path.dsv\n'}
+[1.798212] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/path.sh\n'}
+[1.798338] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/path.dsv\n'}
+[1.798474] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/local_setup.bash\n'}
+[1.798610] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/local_setup.sh\n'}
+[1.798674] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/local_setup.zsh\n'}
+[1.798805] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/local_setup.dsv\n'}
+[1.798881] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/package.dsv\n'}
+[1.798990] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ament_index/resource_index/packages/ids_peak\n'}
+[1.799126] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.799238] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.799417] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.799603] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/cmake/ids_peakConfig.cmake\n'}
+[1.799688] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/cmake/ids_peakConfig-version.cmake\n'}
+[1.799753] (ids_peak) StdoutLine: {'line': b'-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/package.xml\n'}
+[1.801616] (ids_peak) CommandEnded: {'returncode': 0}
+[1.805058] (-) TimerEvent: {}
+[1.863101] (ids_peak) JobEnded: {'identifier': 'ids_peak', 'rc': 0}
+[1.863857] (-) EventReactorShutdown: {}

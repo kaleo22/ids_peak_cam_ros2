@@ -1,0 +1,63 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found camera_info_manager: 3.1.8 (/opt/ros/humble/share/camera_info_manager/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/leonard/camPE/build/ids_peak
+[35m[1mConsolidate compiler generated dependencies of target ids_peak_cam_node[0m
+[35m[1mConsolidate compiler generated dependencies of target ids_peak_cam_node_4[0m
+[35m[1mConsolidate compiler generated dependencies of target ids_peak_cam_node_2[0m
+[35m[1mConsolidate compiler generated dependencies of target ids_peak_cam_node_3[0m
+[ 25%] Built target ids_peak_cam_node
+[ 50%] Built target ids_peak_cam_node_2
+[ 75%] Built target ids_peak_cam_node_4
+[100%] Built target ids_peak_cam_node_3
+-- Install configuration: ""
+-- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/library_path.sh
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/library_path.dsv
+-- Up-to-date: /home/leonard/camPE/install/ids_peak/lib/ids_peak/ids_peak_cam_node
+-- Up-to-date: /home/leonard/camPE/install/ids_peak/share/ids_peak/
+-- Installing: /home/leonard/camPE/install/ids_peak/lib/ids_peak/ids_peak_cam_node_2
+-- Set runtime path of "/home/leonard/camPE/install/ids_peak/lib/ids_peak/ids_peak_cam_node_2" to ""
+-- Installing: /home/leonard/camPE/install/ids_peak/include
+-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak_cam.h
+-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak_cam_2.h
+-- Installing: /home/leonard/camPE/install/ids_peak/include/peak_buffer_converter.hpp
+-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak_cam_4.h
+-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak_cam_3.h
+-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak
+-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak/ids_peak_cam.h
+-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak/ids_peak_cam_2.h
+-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak/peak_buffer_converter.hpp
+-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak/ids_peak_cam_4.h
+-- Installing: /home/leonard/camPE/install/ids_peak/include/ids_peak/ids_peak_cam_3.h
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ament_index/resource_index/package_run_dependencies/ids_peak
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ament_index/resource_index/parent_prefix_path/ids_peak
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/ament_prefix_path.sh
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/ament_prefix_path.dsv
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/path.sh
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/path.dsv
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/local_setup.bash
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/local_setup.sh
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/local_setup.zsh
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/local_setup.dsv
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/package.dsv
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ament_index/resource_index/packages/ids_peak
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/cmake/ids_peakConfig.cmake
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/cmake/ids_peakConfig-version.cmake
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/package.xml

@@ -1,0 +1,4 @@
+source;share/ids_peak/local_setup.bash
+source;share/ids_peak/local_setup.dsv
+source;share/ids_peak/local_setup.sh
+source;share/ids_peak/local_setup.zsh

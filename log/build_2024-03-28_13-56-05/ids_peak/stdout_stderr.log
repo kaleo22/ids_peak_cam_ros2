@@ -1,0 +1,343 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node.dir/src/ids_peak_cam_node.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_3.dir/src/ids_peak_cam_node_3.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_2.dir/src/ids_peak_cam_node_2.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node.dir/src/ids_peak_cam.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_4.dir/src/ids_peak_cam_node_4.cpp.o[0m
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:15[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead[m[K’
+   41 | #pragma message ("Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead"[01;36m[K)[m[K
+      |                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:15[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead[m[K’
+   41 | #pragma message ("Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead"[01;36m[K)[m[K
+      |                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:13[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:1[m[K:
+[01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:47:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   47 |    void publish(const sensor_msgs::msg::Image::Ptr &image[01;35m[K)[m[K;
+      |                                                          [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  170 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:[m[K In function ‘[01m[Kvoid sigsegv_handler(int)[m[K’:
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:8:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 | void sigsegv_handler([01;35m[Kint sig[m[K)
+      |                      [01;35m[K~~~~^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:17:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksignum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   17 | void sigint_handler([01;35m[Kint signum[m[K)
+      |                     [01;35m[K~~~~^~~~~~[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node.cpp:1[m[K:
+[01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam.h:47:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   47 |    void publish(const sensor_msgs::msg::Image::Ptr &image[01;35m[K)[m[K;
+      |                                                          [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  170 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node.cpp:[m[K In function ‘[01m[Kvoid sigsegv_handler(int)[m[K’:
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node.cpp:9:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 | void sigsegv_handler([01;35m[Kint sig[m[K)
+      |                      [01;35m[K~~~~^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node.cpp:18:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksignum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   18 | void sigint_handler([01;35m[Kint signum[m[K)
+      |                     [01;35m[K~~~~^~~~~~[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:1[m[K:
+[01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:47:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   47 |    void publish(const sensor_msgs::msg::Image::Ptr &image[01;35m[K)[m[K;
+      |                                                          [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  170 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:[m[K In function ‘[01m[Kvoid sigsegv_handler(int)[m[K’:
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:8:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 | void sigsegv_handler([01;35m[Kint sig[m[K)
+      |                      [01;35m[K~~~~^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:17:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksignum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   17 | void sigint_handler([01;35m[Kint signum[m[K)
+      |                     [01;35m[K~~~~^~~~~~[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:1[m[K:
+[01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam.h:47:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   47 |    void publish(const sensor_msgs::msg::Image::Ptr &image[01;35m[K)[m[K;
+      |                                                          [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  170 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:16[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead[m[K’
+   41 | #pragma message ("Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead"[01;36m[K)[m[K
+      |                                                                                             [01;36m[K^[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:246:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  246 | void ids_cam::publish(const sensor_msgs::msg::Image::Ptr &image[01;35m[K)[m[K
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  170 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:[m[K In member function ‘[01m[Kvoid ids_cam::publish(const Ptr&)[m[K’:
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:248:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::CameraInfo_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  248 |   sensor_msgs::msg::CameraInfo::Ptr ci[01;35m[K([m[Knew sensor_msgs::msg::CameraInfo(cinfo_->getCameraInfo()));
+      |                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp:219:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  219 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:[m[K In member function ‘[01m[Kvoid ids_cam::poll()[m[K’:
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:256:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  256 |   sensor_msgs::msg::Image::Ptr image[01;35m[K([m[Knew sensor_msgs::msg::Image);
+      |                                     [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  170 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:1[m[K:
+[01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:48:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   48 |    void publish(const sensor_msgs::msg::Image::Ptr &image[01;35m[K)[m[K;
+      |                                                          [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:13[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  170 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:[m[K In function ‘[01m[Kvoid sigsegv_handler(int)[m[K’:
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:9:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 | void sigsegv_handler([01;35m[Kint sig[m[K)
+      |                      [01;35m[K~~~~^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:18:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksignum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   18 | void sigint_handler([01;35m[Kint signum[m[K)
+      |                     [01;35m[K~~~~^~~~~~[m[K
+[ 50%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_4.dir/src/ids_peak_cam_4.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_3.dir/src/ids_peak_cam_3.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_2.dir/src/ids_peak_cam_2.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable ids_peak_cam_node[0m
+[ 75%] Built target ids_peak_cam_node
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:15[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead[m[K’
+   41 | #pragma message ("Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead"[01;36m[K)[m[K
+      |                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:13[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:15[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead[m[K’
+   41 | #pragma message ("Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead"[01;36m[K)[m[K
+      |                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:1[m[K:
+[01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:47:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   47 |    void publish(const sensor_msgs::msg::Image::Ptr &image[01;35m[K)[m[K;
+      |                                                          [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  170 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:1[m[K:
+[01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:47:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   47 |    void publish(const sensor_msgs::msg::Image::Ptr &image[01;35m[K)[m[K;
+      |                                                          [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  170 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:245:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  245 | void ids_cam::publish(const sensor_msgs::msg::Image::Ptr &image[01;35m[K)[m[K
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  170 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:[m[K In member function ‘[01m[Kvoid ids_cam::poll()[m[K’:
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:255:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  255 |   sensor_msgs::msg::Image::Ptr image[01;35m[K([m[Knew sensor_msgs::msg::Image);
+      |                                     [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_4.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  170 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:246:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  246 | void ids_cam::publish(const sensor_msgs::msg::Image::Ptr &image[01;35m[K)[m[K
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  170 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:[m[K In member function ‘[01m[Kvoid ids_cam::poll()[m[K’:
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:256:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  256 |   sensor_msgs::msg::Image::Ptr image[01;35m[K([m[Knew sensor_msgs::msg::Image);
+      |                                     [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_3.h:12[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  170 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:16[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead[m[K’
+   41 | #pragma message ("Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead"[01;36m[K)[m[K
+      |                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:1[m[K:
+[01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:48:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   48 |    void publish(const sensor_msgs::msg::Image::Ptr &image[01;35m[K)[m[K;
+      |                                                          [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:13[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  170 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:245:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  245 | void ids_cam::publish(const sensor_msgs::msg::Image::Ptr &image[01;35m[K)[m[K
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:13[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  170 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:[m[K In member function ‘[01m[Kvoid ids_cam::publish(const Ptr&)[m[K’:
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:247:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::CameraInfo_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  247 |   sensor_msgs::msg::CameraInfo::Ptr ci[01;35m[K([m[Knew sensor_msgs::msg::CameraInfo(cinfo_->getCameraInfo()));
+      |                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:13[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp:219:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  219 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:[m[K In member function ‘[01m[Kvoid ids_cam::poll()[m[K’:
+[01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:255:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  255 |   sensor_msgs::msg::Image::Ptr image[01;35m[K([m[Knew sensor_msgs::msg::Image);
+      |                                     [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/include/ids_peak_cam_2.h:13[m[K,
+                 from [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_2.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:170:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  170 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+[ 83%] [32m[1mLinking CXX executable ids_peak_cam_node_4[0m
+[ 91%] [32m[1mLinking CXX executable ids_peak_cam_node_2[0m
+[ 91%] Built target ids_peak_cam_node_4
+[100%] [32m[1mLinking CXX executable ids_peak_cam_node_3[0m
+[100%] Built target ids_peak_cam_node_2
+[100%] Built target ids_peak_cam_node_3
+-- Install configuration: ""
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/library_path.sh
+-- Installing: /home/leonard/camPE/install/ids_peak/share/ids_peak/environment/library_path.dsv
+-- Installing: /home/leonard/camPE/install/ids_peak/lib/ids_peak/ids_peak_cam_node
+-- Set runtime path of "/home/leonard/camPE/install/ids_peak/lib/ids_peak/ids_peak_cam_node" to ""
+[31mCMake Error at cmake_install.cmake:74 (file):
+  file INSTALL cannot find "/home/leonard/camPE/src/ids_peak/launch": No such
+  file or directory.
+
+[0m

@@ -1,0 +1,2 @@
+Invoking command in '/home/leonard/camPE/build/ids_peak': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leonard/camPE/src/ids_peak -DCMAKE_INSTALL_PREFIX=/home/leonard/camPE/install/ids_peak
+Invoked command in '/home/leonard/camPE/build/ids_peak' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leonard/camPE/src/ids_peak -DCMAKE_INSTALL_PREFIX=/home/leonard/camPE/install/ids_peak

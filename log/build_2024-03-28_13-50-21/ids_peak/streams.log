@@ -1,0 +1,73 @@
+[0.008s] Invoking command in '/home/leonard/camPE/build/ids_peak': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leonard/camPE/src/ids_peak -DCMAKE_INSTALL_PREFIX=/home/leonard/camPE/install/ids_peak
+[0.110s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.214s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.242s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.243s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.249s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.258s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.324s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.325s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.427s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.564s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.817s] -- Found camera_info_manager: 3.1.8 (/opt/ros/humble/share/camera_info_manager/cmake)
+[0.856s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[0.857s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.864s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[0.883s] -- Configuring done
+[0.904s] -- Generating done
+[0.906s] -- Build files have been written to: /home/leonard/camPE/build/ids_peak
+[0.913s] Invoked command in '/home/leonard/camPE/build/ids_peak' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leonard/camPE/src/ids_peak -DCMAKE_INSTALL_PREFIX=/home/leonard/camPE/install/ids_peak
+[0.914s] Invoking command in '/home/leonard/camPE/build/ids_peak': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leonard/camPE/build/ids_peak -- -j5 -l5
+[0.958s] [  8%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node.dir/src/ids_peak_cam.cpp.o[0m
+[0.958s] [ 16%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_3.dir/src/ids_peak_cam_node_3.cpp.o[0m
+[0.958s] [ 33%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_2.dir/src/ids_peak_cam_node_2.cpp.o[0m
+[0.958s] [ 33%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_4.dir/src/ids_peak_cam_node_4.cpp.o[0m
+[0.960s] [ 41%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node.dir/src/ids_peak_cam_node.cpp.o[0m
+[1.005s] [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_3.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kids_peak_cam_3.h: No such file or directory
+[1.005s]     1 | #include [01;31m[K"ids_peak_cam_3.h"[m[K
+[1.006s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.006s] [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_4.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kids_peak_cam_4.h: No such file or directory
+[1.006s]     1 | #include [01;31m[K"ids_peak_cam_4.h"[m[K
+[1.007s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.007s] compilation terminated.
+[1.007s] compilation terminated.
+[1.008s] [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kids_peak_cam.h: No such file or directory
+[1.008s]     1 | #include [01;31m[K"ids_peak_cam.h"[m[K
+[1.008s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.009s] compilation terminated.
+[1.009s] [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node_2.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kids_peak_cam_2.h: No such file or directory
+[1.009s]     1 | #include [01;31m[K"ids_peak_cam_2.h"[m[K
+[1.010s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.010s] compilation terminated.
+[1.010s] [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kids_peak_cam.h: No such file or directory
+[1.011s]     1 | #include [01;31m[K"ids_peak_cam.h"[m[K
+[1.011s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.011s] compilation terminated.
+[1.012s] gmake[2]: *** [CMakeFiles/ids_peak_cam_node.dir/build.make:90: CMakeFiles/ids_peak_cam_node.dir/src/ids_peak_cam.cpp.o] Error 1
+[1.012s] gmake[2]: *** Waiting for unfinished jobs....
+[1.013s] gmake[2]: *** [CMakeFiles/ids_peak_cam_node.dir/build.make:76: CMakeFiles/ids_peak_cam_node.dir/src/ids_peak_cam_node.cpp.o] Error 1
+[1.013s] gmake[2]: *** [CMakeFiles/ids_peak_cam_node_2.dir/build.make:76: CMakeFiles/ids_peak_cam_node_2.dir/src/ids_peak_cam_node_2.cpp.o] Error 1
+[1.013s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/ids_peak_cam_node.dir/all] Error 2
+[1.014s] gmake[1]: *** Waiting for unfinished jobs....
+[1.014s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/ids_peak_cam_node_2.dir/all] Error 2
+[1.015s] gmake[2]: *** [CMakeFiles/ids_peak_cam_node_4.dir/build.make:76: CMakeFiles/ids_peak_cam_node_4.dir/src/ids_peak_cam_node_4.cpp.o] Error 1
+[1.015s] gmake[2]: *** Waiting for unfinished jobs....
+[1.016s] gmake[2]: *** [CMakeFiles/ids_peak_cam_node_3.dir/build.make:76: CMakeFiles/ids_peak_cam_node_3.dir/src/ids_peak_cam_node_3.cpp.o] Error 1
+[1.016s] gmake[2]: *** Waiting for unfinished jobs....
+[1.016s] [ 58%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_3.dir/src/ids_peak_cam_3.cpp.o[0m
+[1.017s] [ 58%] [32mBuilding CXX object CMakeFiles/ids_peak_cam_node_4.dir/src/ids_peak_cam_4.cpp.o[0m
+[1.019s] [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_4.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kids_peak_cam_4.h: No such file or directory
+[1.019s]     1 | #include [01;31m[K"ids_peak_cam_4.h"[m[K
+[1.020s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.020s] compilation terminated.
+[1.021s] [01m[K/home/leonard/camPE/src/ids_peak/src/ids_peak_cam_3.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kids_peak_cam_3.h: No such file or directory
+[1.021s]     1 | #include [01;31m[K"ids_peak_cam_3.h"[m[K
+[1.021s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.023s] compilation terminated.
+[1.023s] gmake[2]: *** [CMakeFiles/ids_peak_cam_node_4.dir/build.make:90: CMakeFiles/ids_peak_cam_node_4.dir/src/ids_peak_cam_4.cpp.o] Error 1
+[1.023s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/ids_peak_cam_node_4.dir/all] Error 2
+[1.024s] gmake[2]: *** [CMakeFiles/ids_peak_cam_node_3.dir/build.make:90: CMakeFiles/ids_peak_cam_node_3.dir/src/ids_peak_cam_3.cpp.o] Error 1
+[1.024s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/ids_peak_cam_node_3.dir/all] Error 2
+[1.024s] gmake: *** [Makefile:146: all] Error 2
+[1.026s] Invoked command in '/home/leonard/camPE/build/ids_peak' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leonard/camPE/build/ids_peak -- -j5 -l5
